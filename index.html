@@ -112,6 +112,6 @@ function burst(){const E=['🎉','✨','🎊','💖','🌸','⭐'];for(let i=0;i
 $('#go').onclick=()=>{ac=ac||new (window.AudioContext||window.webkitAudioContext)();ac.resume();show(1)};
 $('#s1 .next').onclick=()=>show(2);$('#s2 .next').onclick=()=>show(3);
 $('#blow').onclick=()=>{const c=$('#cake');if(c.classList.contains('out'))return;c.classList.add('out');$$('.candle').forEach(k=>{const s=document.createElement('div');s.className='smoke';s.textContent='💨';k.appendChild(s)});burst();$('#fin').innerHTML='🌟 Wish made! May every single one of them come true, Hema. Now cut the cake! 🍰';$('#blow').hidden=true};
-$('#cut').onclick=()=>{$('#cake').classList.add('cut');burst();$('#fin').innerHTML='<b>Happy Birthday, Hema! 🎂💖</b><br>Thank you for being the warm, kind, bubbly soul you are. Never change. Here\'s to a year full of laughter, good food and people who love you as much as you love them!<br>— With love, your friend 🌸';$('#cut').hidden=true;birthday()};
+$('#cut').onclick=()=>{$('#cake').classList.add('cut');burst();$('#fin').innerHTML='<b>Happy Birthday, Hema! 🎂💖</b><br>Thank you for being the warm, kind, bubbly soul you are. Never change. Here\'s to a year full of laughter, good food and people who love you as much as you love them!<br>— With love, your sana 🌸';$('#cut').hidden=true;birthday()};
 for(let i=0;i<10;i++){const f=document.createElement('div');f.className='float';f.textContent=['🌸','💖','✨','🎈'][i%4];f.style.left=i*10+'vw';f.style.animationDelay=-i*1.4+'s';document.body.appendChild(f)}
 </script></body></html>
